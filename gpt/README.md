@@ -15,4 +15,12 @@ GPTConfig中的is_set_xx控制了不同的加速选项
 通过sys.argv[1]加载checkpoint文件
 从评估数据集中随机抽取评估数据
 
+## KV Cache
+### kv_cache_attention.py
+对Attention部分进行修改和测试
 
+### kv_cache_blocks.py
+对transformer部分进行修改和测试
+
+### gpt2_gen.py
+完整的修改测试代码
